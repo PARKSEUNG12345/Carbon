@@ -1,5 +1,4 @@
-
-import './Footer.css';
+import "./Footer.css";
 
 const Footer = () => {
   return (
@@ -9,6 +8,6 @@ const Footer = () => {
       </div>
     </footer>
   );
-}
+};
 
 export default Footer;
