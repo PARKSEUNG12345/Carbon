@@ -1,4 +1,4 @@
-import './MainContent.css';
+import "../style/MainContentStyle.css";
 
 const MainContent = () => {
   return (
@@ -29,6 +29,6 @@ const MainContent = () => {
       </section>
     </main>
   );
-}
+};
 
 export default MainContent;

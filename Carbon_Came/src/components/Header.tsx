@@ -1,5 +1,4 @@
-
-import './Header.css';
+import "../style/HeaderStyle.css";
 
 const Header = () => {
   return (
@@ -8,15 +7,23 @@ const Header = () => {
         <h1>Bitcoin</h1>
         <nav>
           <ul>
-            <li><a href="#what-is-bitcoin">What is Bitcoin?</a></li>
-            <li><a href="#how-it-works">How it Works</a></li>
-            <li><a href="#get-started">Get Started</a></li>
-            <li><a href="#resources">Resources</a></li>
+            <li>
+              <a href="#what-is-bitcoin">What is Bitcoin?</a>
+            </li>
+            <li>
+              <a href="#how-it-works">How it Works</a>
+            </li>
+            <li>
+              <a href="#get-started">Get Started</a>
+            </li>
+            <li>
+              <a href="#resources">Resources</a>
+            </li>
           </ul>
         </nav>
       </div>
     </header>
   );
-}
+};
 
 export default Header;
