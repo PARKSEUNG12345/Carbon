@@ -7,6 +7,7 @@
     -📂pages
     -📂style
     -📂types
+    -📂routers
 -📜app.tsx
 -📜main.tsx
 -📜vite-env.d.ts
@@ -25,5 +26,6 @@
 - src/pages => @pages/*
 - src/types => @types/*
 - src/context => @context/*
+- src/routers => @routers/*
 
 

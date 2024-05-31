@@ -22,7 +22,8 @@
       "@components/*": ["src/components/*"],
       "@pages/*": ["src/pages/*"],
       "@types/*": ["src/types/*"],
-      "@context/*": ["src/context/*"]
+      "@context/*": ["src/context/*"],
+      "@routers/*": ["src/routers/*"]
     },
     /* Linting */
     "strict": true,
