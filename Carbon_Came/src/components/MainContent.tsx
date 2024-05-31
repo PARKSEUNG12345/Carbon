@@ -1,4 +1,4 @@
-import "../style/MainContentStyle.css";
+import "@style/MainContentStyle.css";
 
 const MainContent = () => {
   return (
