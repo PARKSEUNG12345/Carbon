@@ -1,4 +1,4 @@
-import "../style/HeaderStyle.css";
+import "@style/HeaderStyle.css";
 
 const Header = () => {
   return (
