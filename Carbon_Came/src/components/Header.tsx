@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <header>
       <div className="container">
-        <h1>Bitcoin</h1>
+        <h1>COME</h1>
         <nav>
           <ul>
             <li>

@@ -3,7 +3,7 @@ import "@style/FooterStyle.css";
 const Footer = () => {
   return (
     <footer>
-      <div className="container">
+      <div className="">
         <p>&copy; 2024 Bitcoin. All rights reserved.</p>
       </div>
     </footer>
