@@ -43,4 +43,6 @@
 
 ## 라이브러리
 1. react router dom
-2. 
+2. APEXCHARTS
+3. Framer Motion
+4. 
