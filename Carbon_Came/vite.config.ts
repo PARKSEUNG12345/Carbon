@@ -13,6 +13,7 @@ export default defineConfig({
       { find: "@types", replacement: "/src/types" },
       { find: "@context", replacement: "/src/context" },
       { find: "@routers", replacement: "/src/routers" },
+      { find: "@assets", replacement: "/src/assets" },
     ],
   },
 });

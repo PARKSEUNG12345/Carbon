@@ -23,7 +23,8 @@
       "@pages/*": ["src/pages/*"],
       "@types/*": ["src/types/*"],
       "@context/*": ["src/context/*"],
-      "@routers/*": ["src/routers/*"]
+      "@routers/*": ["src/routers/*"],
+      "@assets/*": ["src/assets/*"]
     },
     /* Linting */
     "strict": true,
