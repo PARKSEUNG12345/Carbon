@@ -9,6 +9,7 @@ main {
   justify-content: center;
   width: 100%;
   transition: all 0.2;
+  margin-top: 100px;
 }
 .cardContainer {
   /* display: flex;
