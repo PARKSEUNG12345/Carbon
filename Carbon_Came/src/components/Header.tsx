@@ -1,4 +1,5 @@
 import "@style/HeaderStyle.css";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -18,6 +19,9 @@ const Header = () => {
             </li>
             <li>
               <a href="#resources">Resources</a>
+            </li>
+            <li>
+              <Link to={"/TestPage"}>TestPage</Link>
             </li>
           </ul>
         </nav>
