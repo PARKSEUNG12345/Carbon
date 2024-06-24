@@ -1,27 +1,100 @@
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex: 1;
-}
-.containerWrapper {
-  display: flex;
-  justify-content: center;
+.main {
+  position: relative;
   width: 100%;
-  transition: all 0.2;
-  margin-top: 100px;
+  height: 2700px;
+
+  background: #000000;
 }
-.cardContainer {
-  /* display: flex;
-  flex-wrap: wrap;
-  width: 90vw;
-  height: 100%;
-  justify-content: flex-start;
-  align-items: flex-start; */
+.mainTitle h2 {
+  /* 개인을 위한 CAME */
+
+  position: absolute;
+  left: 43%;
+  top: 207px;
+
+  /* Title
+
+Largest copy on the page.
+*/
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 77px;
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+}
+.mainTitle p {
+  /* 비트코인은 매우 낮은 비용으로 돈을 교환할 수 있는 가장 간단한 방법입니다. */
+
+  position: absolute;
+  width: 1960px;
+  height: 48px;
+  top: 450px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #959595;
+}
+.mainTitle .mainTitleImg {
+  position: absolute;
+  width: 817px;
+  height: 623px;
+  left: 30%;
+  top: 20px;
+  z-index: 0;
+  opacity: 0.2;
+}
+.backImg {
+  z-index: 3;
+}
+.textBox {
   display: flex;
-  flex-wrap: wrap;
+  position: absolute;
+  flex-direction: column;
   justify-content: center;
-  gap: 80px;
-  width: 80%;
-  transition: all 0.2;
+  align-items: center;
+  padding: 0px;
+
+  width: 325px;
+  height: 350px;
+  left: 300px;
+  gap: 20px;
+  color: white;
+}
+.textBox-icon {
+  /* 00 */
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.textBox-title {
+  align-items: center;
+  text-align: center;
+}
+.textBox-contents {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
 }

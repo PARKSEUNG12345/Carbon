@@ -1,0 +1,93 @@
+.nav {
+  position: absolute;
+  height: 100px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+
+  background: #000000;
+}
+
+.logo img {
+  position: absolute;
+  width: 106.21px;
+  height: 100px;
+  left: 0px;
+  top: -2px;
+}
+
+.logo h2 {
+  position: absolute;
+  width: 108px;
+  height: 45px;
+  left: 105px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+
+  color: #89fca3;
+}
+
+.linkPage {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px;
+  gap: 48px;
+
+  position: absolute;
+  width: 482px;
+  height: 38px;
+  right: 431px;
+  top: 15px;
+}
+/* Page */
+
+.linkPage li {
+  width: 61px;
+  height: 38px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 150%;
+  /* identical to box height, or 38px */
+  display: flex;
+  align-items: center;
+
+  color: #89fca3;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+/* 00 Button */
+
+/* Auto layout */
+.languageSelect {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 24px;
+  gap: 8px;
+
+  position: absolute;
+  width: 93px;
+  height: 52px;
+  right: 30px;
+  top: 24px;
+
+  background: #89fca3;
+  /* Button Shadow */
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+}

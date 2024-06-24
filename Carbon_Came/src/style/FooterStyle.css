@@ -1,15 +1,75 @@
-footer {
+.footer {
+  position: absolute;
   width: 100%;
-  position: relative;
-  background-color: black;
-  padding: 10px 0;
-  border-top: 1px solid #ddd;
-  text-align: center;
-  bottom: 0;
-  left: 0;
-}
+  height: 264px;
 
-footer p {
-  margin: 0;
-  color: white;
+  background: #000000;
+}
+.footerlogo {
+  position: absolute;
+  width: 84.97px;
+  height: 80px;
+  left: 54px;
+  top: 30px;
+}
+.footerlogo h2 {
+  position: absolute;
+  width: 70px;
+  height: 36px;
+  left: 116px;
+  top: 10px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  /* identical to box height, or 36px */
+  display: flex;
+  align-items: center;
+
+  color: #89fca3;
+}
+.snsIcon {
+  /* Social Icons */
+  color: aqua;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+
+  position: absolute;
+  width: 184px;
+  height: 40px;
+  left: 80px;
+  top: 176px;
+}
+.title {
+  /* Items */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 0px;
+
+  position: absolute;
+  width: 187px;
+  height: 200px;
+  right: 741px;
+  top: 42px;
+  color: #89fca3;
+}
+.t2 {
+  right: 541px;
+}
+.t3 {
+  right: 341px;
+}
+.t4 {
+  right: 141px;
 }
