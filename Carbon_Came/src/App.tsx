@@ -1,12 +1,10 @@
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
+import MainPage from "@/pages/MainPage";
 import "@style/App.css";
 
 const App = () => {
   return (
     <div className="App">
-      <Header />
-      <Footer />
+      <MainPage />
     </div>
   );
 };

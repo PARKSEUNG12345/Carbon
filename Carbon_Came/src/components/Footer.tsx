@@ -8,33 +8,38 @@ import instagramIcon from "@assets/instagram.png";
 import twitterIcon from "@assets/X.png";
 import tiktokIcon from "@assets/tikto.png";
 
-const carmCameSns = {
-  facebook: {
+const carmCameSns = [
+  {
+    sns: "facebook",
     link: "https://www.facebook.com/CarbonZero.official/",
     icon: facebookIcon,
     alt: "페이스북",
   },
-  youtube: {
+  {
+    sns: "youtube",
     link: "https://www.youtube.com/@carbonzero_official",
     icon: youtubeIcon,
     alt: "유튜브",
   },
-  instagram: {
+  {
+    sns: "instagram",
     link: "https://www.instagram.com/carbonzero_official/",
     icon: instagramIcon,
     alt: "인스타그램",
   },
-  twitter: {
+  {
+    sns: "twitter",
     link: "https://twitter.com/CarbonZero_CAME",
     icon: twitterIcon,
     alt: "트위터",
   },
-  tiktok: {
+  {
+    sns: "tiktok",
     link: "https://www.tiktok.com/@carbonzero",
     icon: tiktokIcon,
     alt: "틱톡",
   },
-};
+];
 const Footer = () => {
   return (
     <div className="footer">
@@ -47,21 +52,11 @@ const Footer = () => {
             </Link>
           </div>
           <div className="footer-social">
-            <a href="https://www.facebook.com/CarbonZero.official/" target="_blank" rel="noopener noreferrer">
-              <img src={facebookIcon} alt="페이스북" />
-            </a>
-            <a href="https://www.youtube.com/@carbonzero_official" target="_blank" rel="noopener noreferrer">
-              <img src={youtubeIcon} alt="유튜브" />
-            </a>
-            <a href="https://www.instagram.com/carbonzero_official/" target="_blank" rel="noopener noreferrer">
-              <img src={instagramIcon} alt="인스타그램" />
-            </a>
-            <a href="https://twitter.com/CarbonZero_CAME" target="_blank" rel="noopener noreferrer">
-              <img src={twitterIcon} alt="트위터" />
-            </a>
-            <a href="https://www.tiktok.com/@carbonzero" target="_blank" rel="noopener noreferrer">
-              <img src={tiktokIcon} alt="틱톡" />
-            </a>
+            {carmCameSns.map((sns) => (
+              <a key={sns.sns} href={sns.link} target="_blank" rel="noopener noreferrer">
+                <img src={sns.icon} alt={sns.alt} />
+              </a>
+            ))}
           </div>
         </div>
         <div className="footer-right">
