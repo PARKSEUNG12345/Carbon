@@ -7,7 +7,7 @@ const headerText = {
 };
 const MainPage = () => {
   return (
-    <div>
+    <>
       <Header HeaderText={headerText.headerText} BannerText={headerText.bannerText} />
       <div className="main">
         <div className="main-content">
@@ -23,7 +23,7 @@ const MainPage = () => {
         </div>
       </div>
       <Footer />
-    </div>
+    </>
   );
 };
 
